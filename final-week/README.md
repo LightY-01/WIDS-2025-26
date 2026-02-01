@@ -4,7 +4,7 @@ This folder contains the culmination of my learning journey through the WiDS pro
 
 ## Overview
 
-The main file `cnn_pytorch.ipynb` implements a CNN for handwritten digit classification that achieves **99.225% test accuracy** on the MNIST dataset. What makes this implementation special is that I built the core convolutional and pooling layers from scratch using PyTorch's `unfold` operation, rather than simply using the pre-built `nn.Conv2d` and `nn.MaxPool2d` layers.
+The main file `digit-classifier-pytorch-cnn.ipynb` implements a CNN for handwritten digit classification that achieves **99.225% test accuracy** on the MNIST dataset. What makes this implementation special is that I built the core convolutional and pooling layers from scratch using PyTorch's `unfold` operation, rather than simply using the pre-built `nn.Conv2d` and `nn.MaxPool2d` layers.
 
 ## Why Custom Layers?
 
