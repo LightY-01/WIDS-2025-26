@@ -17,3 +17,9 @@ This folder contains multiple implementations that progressively increase in sop
 From there, I moved to using Keras and built several different architectures. I explored dense neural networks, then moved to convolutional neural networks that better understand spatial relationships in images. I experimented with techniques like batch normalization, dropout, data augmentation, and learning rate scheduling. The final implementation uses ensemble methods, training multiple models and averaging their predictions to achieve even higher accuracy.
 
 I also implemented a similar network using PyTorch to understand the differences between frameworks and get comfortable with PyTorch's more explicit, low-level approach to building neural networks.
+
+### Final Week: Custom CNN Implementation
+
+The final week represents the culmination of my learning journey, where I went beyond using pre-built layers to implementing a convolutional neural network from fundamental building blocks. Rather than simply calling PyTorch's built-in convolution and pooling layers, I built custom versions using the unfold operation to truly understand what happens during convolution.
+
+This implementation achieves 99.225% test accuracy on MNIST, demonstrating that my custom layers work just as effectively as the optimized built-in versions. More importantly, building these layers from scratch taught me to think about convolution as a matrix multiplication operation on properly arranged image patches, which demystified what previously seemed like a complex black-box operation.
